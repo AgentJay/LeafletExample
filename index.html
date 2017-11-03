@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--Any css that might be needed for the example (not much is needed)-->
+  <link rel="stylesheet" href="css/leafletExample.css">
+  <link rel="stylesheet" href="css/styledLayerControl.css">
+  <!-- Font Awesome is used for the Icons used in the layer control box -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--Loading the Leaflet CSS from CDN-->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
+   integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
+   crossorigin=""/>
+  <!--Loading the jQuery from CDN-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!--Loading the Leaflet JS from CDN-->
+  <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
+   integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
+   crossorigin=""></script>
+  <!--The file we customise to interact with the map-->
+  <script src="js/leafletExample.js"></script>
+  <!--a library I made to query the layers-->
+  <script src="libs\wmsGetFeatureInfo.js"></script>
+  <script src="libs\styledLayerControl.js"></script>
+  <!--What I use to keep track of all the interesting layers I find-->
+  <script src="js/leafletGlobal.js"></script>
+
+</head>
+<body>
+
+<h1>Leaflet Eample</h1>
+<p>This shows some BIOPAMA ACP stuff</p>
+<div id="mapid"></div>
+
+</body>
+</html>
